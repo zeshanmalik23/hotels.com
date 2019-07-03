@@ -18,7 +18,7 @@ public class HotelsSD {
         hPage.sendtextDestination("New York, New York, United States Of America");
         hPage.clickOnFirstChoice();
         hPage.clickOnSearch();
-        Assert.assertEquals(SharedSD.getDriver().getTitle(),"Hotels.com - hotels in Boston, Massachusetts, United States of America");
+        Assert.assertEquals(SharedSD.getDriver().getTitle(),"Hotels.com - hotels in New York, New York, United States Of America");
 
         resultpg.maximizeWindow();
 

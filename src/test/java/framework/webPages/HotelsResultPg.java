@@ -80,7 +80,7 @@ public class HotelsResultPg extends BasePage {
     public void distanceCheck(){
         List<WebElement> distanceList = SharedSD.getDriver().findElements(distanceToPlace);
         for(WebElement e : distanceList) {
-        String getString = e.getText();
+        String getString = e.getText().substring(0,3);
         floatDistance = Float.parseFloat(getString);
 
 
