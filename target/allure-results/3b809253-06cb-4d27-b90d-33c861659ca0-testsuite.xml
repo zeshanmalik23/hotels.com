@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1560736245346" stop="1560736249151" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify Invalid Login for multiple users | smith@technosoftacademy.io | test |</name>
+    <title>Verify Invalid Login for multiple users | smith@technosoftacademy.io | test |</title>
+    <test-cases>
+        <test-case start="1560736245348" stop="1560736245348" status="passed">
+            <name>Given I am on home page</name>
+            <title>Given I am on home page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="LAPTOP-844CE2BJ"/>
+                <label name="thread" value="1700@LAPTOP-844CE2BJ.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1560736246181" stop="1560736246182" status="passed">
+            <name>When I enter smith@technosoftacademy.io into username text fields on home screen</name>
+            <title>When I enter smith@technosoftacademy.io into username text fields on home screen</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="LAPTOP-844CE2BJ"/>
+                <label name="thread" value="1700@LAPTOP-844CE2BJ.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1560736246385" stop="1560736246385" status="passed">
+            <name>And I enter test into password text fields on home screen</name>
+            <title>And I enter test into password text fields on home screen</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="LAPTOP-844CE2BJ"/>
+                <label name="thread" value="1700@LAPTOP-844CE2BJ.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1560736247824" stop="1560736247824" status="passed">
+            <name>And I click on login button on home screen</name>
+            <title>And I click on login button on home screen</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="LAPTOP-844CE2BJ"/>
+                <label name="thread" value="1700@LAPTOP-844CE2BJ.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1560736247829" stop="1560736247829" status="pending">
+            <name>Then I verify that i am an invalid login page</name>
+            <title>Then I verify that i am an invalid login page</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="LAPTOP-844CE2BJ"/>
+                <label name="thread" value="1700@LAPTOP-844CE2BJ.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1560736249151" stop="1560736249151" status="pending">
+            <name>| smith@technosoftacademy.io | test |</name>
+            <title>| smith@technosoftacademy.io | test |</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="LAPTOP-844CE2BJ"/>
+                <label name="thread" value="1700@LAPTOP-844CE2BJ.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify Invalid Login for multiple users | smith@technosoftacademy.io | test |"/>
+        <label name="feature" value="Login feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
